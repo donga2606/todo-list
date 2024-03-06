@@ -1,10 +1,10 @@
+import { Task } from "@/types/entities";
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  Task,
   TodoForm,
 } from "..";
 

@@ -1,4 +1,3 @@
-import { Task } from "@/components";
 import { cn } from "@/lib/utils";
 import { useStore } from "@/store";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -22,6 +21,7 @@ import {
   PopoverTrigger,
   Textarea,
 } from "..";
+import { Task } from "@/types/entities";
 
 const formSchema = z
   .object({
